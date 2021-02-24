@@ -1,0 +1,33 @@
+
+div{
+    margin: px;
+}
+
+h1{
+    font-style: italic;
+    background-color:#8349c5;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2{
+    color: #06da06;
+    background-color: black;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+h3{
+    background-color: maroon;
+    text-decoration: underline;
+}
+
+h4{
+    color: #0669da;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+
+#isWhite{
+    text-align:center;
+    color: white;
+}
