@@ -1,0 +1,30 @@
+button{
+    display: block;
+    margin: 40px 40px 0 40px;
+}
+
+.green{
+    color: #23a2a4;
+    border: 1px solid  #23a2a4;
+    border-radius: 20px;
+    padding: 0px 30px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00d1b2;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.shadow{
+    padding: 7px 25px;
+    color: white;
+    background-color: #2b78e4;
+    border: 1px solid black;
+    box-shadow: 4px 4px #222;
+}
