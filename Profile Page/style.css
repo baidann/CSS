@@ -1,19 +1,14 @@
 *{
     /* padding:0;
     margin:0; */
-    /* outline: orange dashed 1px; */
+    outline: orange dashed 1px;
     font-family: Arial, Helvetica, sans-serif
 }
-/* 
-body{
-    padding: 0 auto;
-} */
 .center{
     height: 50px;
     background-color: black;
     display: flex;
     justify-content: center;
-
 }
 .nav{
     width: 800px;
@@ -24,31 +19,72 @@ body{
     justify-content: space-between;
     align-items: center;
     /* padding: 10px 200px 10px 200; */
-
 }
-
 h1 {
     flex:1;
 }
-
-
 .dash{
-    flex: 3;
+    flex: 4;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 p{
 margin-right: 30px;
 }
+button{
+    color: white;
+    border: black;
+    font-weight: 750;
+    flex:1;
+    max-width: 80px;
+    height: 30px;
+    background-color: #17a2b8;
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.colLeft{
+    margin-right: 30px;
+    flex: 2;
+}
+.colRight{
+    flex: 1;
+}
+.gray{
+    outline: gray solid 4px;
+}
+.header, .education{
+    padding: 20px;
+}
+.header .blue{
+    height: 80px;
+    width: inherit;
+    background-color: #17a2b8;
+}
+.header .lrgProfilePic{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.header h1{
+    margin: 0;
+}
+.header .iconLocation, .header .icon{
+    height: 15px;
+    margin-right: 15px;
+}
+.header h3{
+    display: inline-block;
+}
+.header p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.education .boxtitle{
 
-    button{
-        color: white;
-        border: black;
-        font-weight: 750;
-        flex:1;
-        max-width: 80px;
-        height: 30px;
-        background-color: #17a2b8;
-    }
+}
