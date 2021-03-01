@@ -58,7 +58,6 @@ button{
     outline: gray solid 4px;
 }
 .header, .education{
-    padding: 20px;
 }
 .header .blue{
     height: 80px;
@@ -70,6 +69,7 @@ button{
     padding: 5px;
     border-radius: 50%;
     border: 2px solid gray;
+    position: relative; bottom: 50px;
 }
 .header h1{
     margin: 0;
@@ -85,6 +85,31 @@ button{
     margin-top: 0;
     margin-bottom: 15px;
 }
-.education .boxtitle{
-
+.boxTitle h3{
+    color:white;
+    background-color: rgb(88, 87, 87);
+}
+.education h3 span{
+    color:gray;
+}
+.userProfile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.userProfile .smProfilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.userProfile .profileIcon{
+    width: 35px;
+    height: 35px;
+}
+.requests .userProfile{
+    justify-content: space-around;
+}
+.connections .userProfile .smProfilePic{
+    margin: 10px;
 }
